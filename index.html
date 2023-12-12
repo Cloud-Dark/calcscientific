@@ -1,0 +1,92 @@
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <div class="calculator">
+          <div class="calculator">
+    <input type="text" id="input" class="input form-control mb-2" readonly>
+    <input type="text" id="output" class="input form-control mb-2" readonly>
+        <div class="buttons">
+            <div class="row">
+                <div class="col-3">
+                    <button onclick="clearDisplay()" class="btn btn-light btn-block">C</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="deleteChar()" class="btn btn-light btn-block">&#9003;</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('(')" class="btn btn-light btn-block">(</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar(')')" class="btn btn-light btn-block">)</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button onclick="appendChar('7')" class="btn btn-light btn-block">7</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('8')" class="btn btn-light btn-block">8</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('9')" class="btn btn-light btn-block">9</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('/')" class="btn btn-light btn-block">/</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button onclick="appendChar('4')" class="btn btn-light btn-block">4</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('5')" class="btn btn-light btn-block">5</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('6')" class="btn btn-light btn-block">6</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('*')" class="btn btn-light btn-block">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button onclick="appendChar('1')" class="btn btn-light btn-block">1</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('2')" class="btn btn-light btn-block">2</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('3')" class="btn btn-light btn-block">3</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('-')" class="btn btn-light btn-block">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button onclick="appendChar('.')" class="btn btn-light btn-block">.</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('0')" class="btn btn-light btn-block">0</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('+')" class="btn btn-light btn-block">+</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('sin(')" class="btn btn-light btn-block">sin</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button onclick="appendChar('cos(')" class="btn btn-light btn-block btn-center-text">cos</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('tan(')" class="btn btn-light btn-block">tan</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="appendChar('log(')" class="btn btn-light btn-block">log</button>
+                </div>
+                <div class="col-3">
+                    <button onclick="calculate()" class="btn btn-primary btn-block">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
